@@ -2,7 +2,7 @@
 
 Bienvenido al Panel de Gestión de Parqueo de la Facultad de Ingeniería en la Universidad San Carlos de Guatemala. Esta aplicación permite monitorear y gestionar el espacio de parqueo de manera eficiente, con actualizaciones en tiempo real, análisis detallados y una interfaz fácil de usar.
 
-![Captura de Pantalla del Dashboard de Parqueo](https://i.ibb.co/3SM0bvr/1.png)
+![Captura de Pantalla del Dashboard de Parqueo](./parqueo-frontend/screenshots/1.png)
 
 ---
 
@@ -76,22 +76,22 @@ El Panel de Gestión de Parqueo consta de varias secciones clave:
    Muestra datos en tiempo real sobre la ocupación del parqueo, incluyendo:
    - Espacios disponibles vs. ocupados.
 
-   ![Resumen Principal](https://i.ibb.co/3SM0bvr/1.png)
+   ![Resumen Principal](./parqueo-frontend/screenshots/1.png)
 
 ### 2. **Gráficas de Ocupación**
    Representaciones visuales de entradas y salidas a lo largo del día, actualizadas cada hora entre las 5 AM y 10 PM. 
    
-   ![Gráficas de Ocupación](https://i.ibb.co/GTdTqxk/3.png)
+   ![Gráficas de Ocupación](./parqueo-frontend/screenshots/3.png)
 
 ### 3. **Gráfica de Pastel**
    Desglose de la ocupación actual del parqueo en un formato de gráfica de pastel, proporcionando una visión rápida.
 
-   ![Gráfica de Pastel](https://i.ibb.co/HG88Pnb/2.png)
+   ![Gráfica de Pastel](./parqueo-frontend/screenshots/2.png)
 
 ### 4. **Registro de Entradas/Salidas**
    Una tabla detallada con todas las entradas y salidas de vehículos, incluyendo marcas de tiempo y tipos de vehículos.
 
-   ![Registro de Entradas/Salidas](https://i.ibb.co/SKVJxNQ/4.png)
+   ![Registro de Entradas/Salidas](./parqueo-frontend/screenshots/4.png)
 
 ---
 
@@ -104,7 +104,7 @@ Este proyecto incluye un análisis obligatorio del modelo de colas MM1K, utiliza
 
 El modelo usa una tasa de servicio constante y tasas de llegada en tiempo real obtenidas de los datos del parqueo.
 
- ![Registro de Entradas/Salidas](https://i.ibb.co/TLmsY9Y/6.png)
+ ![Registro de Entradas/Salidas](./parqueo-frontend/screenshots/6.png)
 
 ---
 
