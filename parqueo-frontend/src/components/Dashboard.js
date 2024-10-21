@@ -180,7 +180,15 @@ function Dashboard() {
 
   const getHourlyData = (data, action) => {
     const hourlyCount = Array(18).fill(0); // 5 AM a 10 PM
-    const today = new Date().toISOString().split("T")[0]; // Obtener la fecha actual en formato YYYY-MM-DD
+    const today = new Date()
+          .toLocaleDateString("es-GT", {
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+          })
+          .split("/")
+          .reverse()
+          .join("-");
     console.log(today);
 
     data.forEach((entry) => {
